@@ -22,6 +22,7 @@ import {
   carrent,
   jobit,
   tripguide,
+  converto,
   threejs,
 } from "../assets";
 
@@ -216,6 +217,27 @@ const projects = [
       },
     ],
     image: jobit,
+    source_code_link: "https://github.com/",
+  },
+  {
+    name: "Converto",
+    description:
+      "A file convertor that allows users to convert files from one format to another. Also Compressing the files.",
+    tags: [
+      {
+        name: "Typescript",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "javascript",
+        color: "green-text-gradient",
+      },
+      {
+        name: "css",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: converto,
     source_code_link: "https://github.com/",
   },
   {
