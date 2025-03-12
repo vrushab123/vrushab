@@ -54,6 +54,17 @@ const About = () => {
         real-world problems. Let's work together to bring your ideas to life!
       </motion.p>
 
+      <div className="mt-10 flex justify-start p-[2px] rounded-xl green-pink-gradient w-fit">
+        <a
+          href="https://drive.google.com/file/d/1epINKAAc7s3xAE_9W6ygzcDG4rqEHgbt/view?usp=sharing"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="bg-tertiary py-3 px-8 rounded-xl outline-none w-fit text-white font-bold shadow-md shadow-primary hover:bg-secondary transition-all"
+        >
+          View Resume
+        </a>
+      </div>
+
       <div className='mt-20 flex flex-wrap gap-10'>
         {services.map((service, index) => (
           <ServiceCard key={service.title} index={index} {...service} />
